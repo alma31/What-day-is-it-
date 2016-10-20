@@ -1,0 +1,28 @@
+body {
+	background-color: #34314c;
+}
+
+#message {
+	background-color: #ff7473;
+	height: 10%;
+	width: 100%;
+}
+
+#message p{
+
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#message1 {
+	background-color: #ff7473;
+	height: 10%;
+	width: 100%;
+}
+
+#message1 p{
+
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	
+}
