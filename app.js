@@ -8,10 +8,12 @@
 			$('#message1').hide();
 			$('#message').hide();
 			this.listeners();
+			moment.locale('fr');
 
 		},
 		listeners: function(){
 			$('#btn').on('click',this.donnee.bind(this));
+			console.log("teste");
 		},
 
 		donnee: function(){
@@ -23,16 +25,15 @@
 			  this.annee = $("#annee").val();
 			if (this.annee > 0) { this.verification();}
 			else { $('#message1').show();}
-
 			this.verification();
 		},
 
 		verification: function(){
-			console.log(this.jours,this.mois,this.annee);
+			var day = moment(this.annee +"-"+ this.mois +"-"+ this.jours);
+			console.log(day.format('dddd'));
+
+
 		},
-
-
-
 
 	};
 app.init();
