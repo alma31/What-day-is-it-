@@ -2,6 +2,20 @@ body {
 	background-color: #34314c;
 }
 
+.cool {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100pt;
+	text-align: center;
+	color: #fff;
+
+}
+
+#message3{
+
+	background-color: #9055A2;
+	height: 100vh;
+}
+
 #message {
 	background-color: #ff7473;
 	height: 10%;
