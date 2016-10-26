@@ -5,8 +5,9 @@ body {
 .cool {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 100pt;
-	text-align: center;
 	color: #fff;
+	text-align: center;
+
 
 }
 
@@ -40,3 +41,14 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	
 }
+
+select, input, .verif {
+	background-color: #34314c;
+	color: #47b8e0;
+	font-size: 1.2em;
+	padding: 10px;
+	margin: 10px auto;
+	border: #47b8e0 solid 1px;
+}
+
+
