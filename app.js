@@ -26,6 +26,7 @@
 					$('#message4').show();
 					$('#jour').css('border-color','#ff7473');
 					$('#annee').css('border-color','#ff7473');}
+					
 					else if(this.annee <= 0) { 
 						$('#message1').show();
 						$('#annee').css('border-color','#ff7473');}
@@ -41,7 +42,7 @@
 
 							verification: function(){
 
-								var day = moment(this.annee +"-"+ this.mois +"-"+ this.jours);
+								var day = moment([this.annee, this.mois, this.jours]);
 								$('#message3').show();
 								$('.restart').show();
 								$('body').css("background-color","#9055A2");
