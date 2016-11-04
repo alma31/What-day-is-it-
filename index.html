@@ -3,15 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>What day is it</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+	<button class="restart">X</button>
 	<div id="message" class="error"><p>Le jour doit etre compris entre 1 et 31 !<p></div>
 	<div id="message1" class="error"><p>L'année doit etre supérieure à 0<p></div>
 	<div id="message3" class="cool"></div>
+	<div id="message4" class="error"><p>Entrer une date valide</p></div>
 	<div class="corps">
-		<input id="jour" type="text" name="" value="21">
+		<label>Jours</label>
+		<input id="jour" type="text" name="" value="">
+		<label>Mois</label>
 		<select id="mois">
 			<option value="09">Septembre</option>
 			<option value="10">Octobre</option>
@@ -26,10 +31,11 @@
 			<option value="07">Juillet</option>
 			<option value="08">Aout</option>
 		</select>
-		<input id="annee" type="text" name="" class="ui input focus" value="1996">
+		<label>Année</label>
+		<input id="annee" type="text" name="" class="ui input focus" value="">
 		<div class="buttonContainer">
-		<button id="btn" class="verif">Vérifier</button>
-	</div>
+			<button id="btn" class="verif">Vérifier</button>
+		</div>
 	</div>
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/semantic-ui/dist/semantic.min.js"></script>
