@@ -26,6 +26,7 @@
 					$('#message4').show();
 					$('#jour').css('border-color','#ff7473');
 					$('#annee').css('border-color','#ff7473');}
+					
 					else if(this.annee <= 0) { 
 						$('#message1').show();
 						$('#annee').css('border-color','#ff7473');}
