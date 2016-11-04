@@ -42,7 +42,7 @@
 
 							verification: function(){
 
-								var day = moment(this.annee +"-"+ this.mois +"-"+ this.jours);
+								var day = moment([this.annee, this.mois, this.jours]);
 								$('#message3').show();
 								$('.restart').show();
 								$('body').css("background-color","#9055A2");
